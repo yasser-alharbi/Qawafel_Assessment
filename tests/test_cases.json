@@ -1,0 +1,68 @@
+[
+  {
+    "id": "full_payment",
+    "invoices": [
+      "DEMO-2025-001"
+    ],
+    "expected": "One referenced incoming payment of SAR 8,280 on 2025-01-17. Suggested full amount, not confirmed settlement."
+  },
+  {
+    "id": "instalments",
+    "invoices": [
+      "DEMO-2025-003"
+    ],
+    "expected": "Two referenced payments of SAR 4,830 on 2025-02-18 and 2025-03-04; combined SAR 9,660."
+  },
+  {
+    "id": "partial_payment",
+    "invoices": [
+      "DEMO-2025-005"
+    ],
+    "expected": "Only SAR 4,000 is explicitly referenced against SAR 11,040 invoiced. SAR 7,040 is not covered by this suggestion; do not label it overdue automatically."
+  },
+  {
+    "id": "combined_payment",
+    "invoices": [
+      "DEMO-2025-009",
+      "DEMO-2025-013"
+    ],
+    "expected": "One SAR 19,665 payment on 2025-07-20 references both invoices for the same customer. Proposed allocations: SAR 9,315 and SAR 10,350; count the transaction once."
+  },
+  {
+    "id": "ambiguous_amount",
+    "invoices": [
+      "DEMO-2025-007",
+      "DEMO-2025-011"
+    ],
+    "expected": "A SAR 8,640 receipt on 2025-07-10 has no invoice reference. Both invoices have the same customer and amount. Show ambiguity; do not allocate the receipt in full to both."
+  },
+  {
+    "id": "no_identified_payment",
+    "invoices": [
+      "DEMO-2025-014"
+    ],
+    "expected": "No observed referenced payment. Display No matching payment identified, not Unpaid."
+  },
+  {
+    "id": "non_sales_inflows",
+    "invoices": [],
+    "expected": "Exclude the SAR 8,640 own-account transfer on 2025-04-18 and SAR 20,000 loan on 2025-08-12 from customer-payment suggestions."
+  },
+  {
+    "id": "outside_period",
+    "invoices": [
+      "DEMO-2025-024"
+    ],
+    "expected": "No payment visible in 2025. A SAR 9,775 referenced payment appears on 2026-01-12 in the separate extra_period file. Keep outside the base 2025 package."
+  },
+  {
+    "id": "missing_statement",
+    "invoices": [],
+    "expected": "Upload 2025 statements except statement_2025-04.pdf. Flag April coverage as missing for DEMO-ACCOUNT-001. Uploading April clears the coverage gap after revalidation."
+  },
+  {
+    "id": "duplicate_statement",
+    "invoices": [],
+    "expected": "Attempt to upload statement_2025-03.pdf twice. Detect the duplicate and do not import its transactions twice."
+  }
+]

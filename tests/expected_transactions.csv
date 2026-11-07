@@ -1,0 +1,61 @@
+transaction_id,transaction_date,description,payment_reference,outgoing,incoming,balance,statement_file,page
+TX-001,2025-01-02,Warehouse rent,RENT-01,1200,0,38800.00,data/bank_statements/statement_2025-01.pdf,1
+TX-002,2025-01-15,Payment to Demo Grocery Supplier,SUPPLIER-01,3175,0,35625.00,data/bank_statements/statement_2025-01.pdf,1
+TX-003,2025-01-17,Demo Palm Grocery,DEMO-2025-001,0,8280,43905.00,data/bank_statements/statement_2025-01.pdf,1
+TX-004,2025-01-28,Account service fee,FEE-01,25,0,43880.00,data/bank_statements/statement_2025-01.pdf,1
+TX-005,2025-01-31,Demo Horizon Market,DEMO-2025-002,0,6210,50090.00,data/bank_statements/statement_2025-01.pdf,1
+TX-006,2025-02-02,Warehouse rent,RENT-02,1200,0,48890.00,data/bank_statements/statement_2025-02.pdf,1
+TX-007,2025-02-15,Payment to Demo Grocery Supplier,SUPPLIER-02,3350,0,45540.00,data/bank_statements/statement_2025-02.pdf,1
+TX-008,2025-02-18,Demo Oasis Stores,DEMO-2025-003,0,4830,50370.00,data/bank_statements/statement_2025-02.pdf,1
+TX-009,2025-02-28,Account service fee,FEE-02,25,0,50345.00,data/bank_statements/statement_2025-02.pdf,1
+TX-010,2025-03-02,Warehouse rent,RENT-03,1200,0,49145.00,data/bank_statements/statement_2025-03.pdf,1
+TX-011,2025-03-04,Demo Oasis Stores,DEMO-2025-003,0,4830,53975.00,data/bank_statements/statement_2025-03.pdf,1
+TX-012,2025-03-04,Demo Cedar Mini Market,DEMO-2025-004,0,7590,61565.00,data/bank_statements/statement_2025-03.pdf,1
+TX-013,2025-03-15,Payment to Demo Grocery Supplier,SUPPLIER-03,3525,0,58040.00,data/bank_statements/statement_2025-03.pdf,1
+TX-014,2025-03-20,Demo Palm Grocery,DEMO-2025-005,0,4000,62040.00,data/bank_statements/statement_2025-03.pdf,1
+TX-015,2025-03-28,Account service fee,FEE-03,25,0,62015.00,data/bank_statements/statement_2025-03.pdf,1
+TX-016,2025-04-02,Demo Horizon Market,DEMO-2025-006,0,8625,70640.00,data/bank_statements/statement_2025-04.pdf,1
+TX-017,2025-04-02,Warehouse rent,RENT-04,1200,0,69440.00,data/bank_statements/statement_2025-04.pdf,1
+TX-018,2025-04-15,Payment to Demo Grocery Supplier,SUPPLIER-04,3700,0,65740.00,data/bank_statements/statement_2025-04.pdf,1
+TX-019,2025-04-18,Internal transfer from own savings account,OWN-TRANSFER,0,8640,74380.00,data/bank_statements/statement_2025-04.pdf,1
+TX-020,2025-04-28,Account service fee,FEE-04,25,0,74355.00,data/bank_statements/statement_2025-04.pdf,1
+TX-021,2025-05-02,Warehouse rent,RENT-05,1200,0,73155.00,data/bank_statements/statement_2025-05.pdf,1
+TX-022,2025-05-04,Demo Cedar Mini Market,DEMO-2025-008,0,5520,78675.00,data/bank_statements/statement_2025-05.pdf,1
+TX-023,2025-05-15,Payment to Demo Grocery Supplier,SUPPLIER-05,3875,0,74800.00,data/bank_statements/statement_2025-05.pdf,1
+TX-024,2025-05-28,Account service fee,FEE-05,25,0,74775.00,data/bank_statements/statement_2025-05.pdf,1
+TX-025,2025-06-02,Warehouse rent,RENT-06,1200,0,73575.00,data/bank_statements/statement_2025-06.pdf,1
+TX-026,2025-06-04,Demo Horizon Market,DEMO-2025-010,0,6900,80475.00,data/bank_statements/statement_2025-06.pdf,1
+TX-027,2025-06-15,Payment to Demo Grocery Supplier,SUPPLIER-06,4050,0,76425.00,data/bank_statements/statement_2025-06.pdf,1
+TX-028,2025-06-28,Account service fee,FEE-06,25,0,76400.00,data/bank_statements/statement_2025-06.pdf,1
+TX-029,2025-07-02,Warehouse rent,RENT-07,1200,0,75200.00,data/bank_statements/statement_2025-07.pdf,1
+TX-030,2025-07-06,Demo Cedar Mini Market,DEMO-2025-012,0,5750,80950.00,data/bank_statements/statement_2025-07.pdf,1
+TX-031,2025-07-10,Demo Oasis Stores,,0,8640,89590.00,data/bank_statements/statement_2025-07.pdf,1
+TX-032,2025-07-15,Payment to Demo Grocery Supplier,SUPPLIER-07,4225,0,85365.00,data/bank_statements/statement_2025-07.pdf,1
+TX-033,2025-07-20,Demo Palm Grocery,DEMO-2025-009 + DEMO-2025-013,0,19665,105030.00,data/bank_statements/statement_2025-07.pdf,1
+TX-034,2025-07-28,Account service fee,FEE-07,25,0,105005.00,data/bank_statements/statement_2025-07.pdf,1
+TX-035,2025-08-02,Warehouse rent,RENT-08,1200,0,103805.00,data/bank_statements/statement_2025-08.pdf,1
+TX-036,2025-08-12,Loan disbursement,DEMO-LOAN,0,20000,123805.00,data/bank_statements/statement_2025-08.pdf,1
+TX-037,2025-08-15,Payment to Demo Grocery Supplier,SUPPLIER-08,4400,0,119405.00,data/bank_statements/statement_2025-08.pdf,1
+TX-038,2025-08-19,Demo Oasis Stores,DEMO-2025-015,0,8970,128375.00,data/bank_statements/statement_2025-08.pdf,1
+TX-039,2025-08-28,Account service fee,FEE-08,25,0,128350.00,data/bank_statements/statement_2025-08.pdf,1
+TX-040,2025-08-31,Demo Cedar Mini Market,DEMO-2025-016,0,6325,134675.00,data/bank_statements/statement_2025-08.pdf,1
+TX-041,2025-09-02,Warehouse rent,RENT-09,1200,0,133475.00,data/bank_statements/statement_2025-09.pdf,1
+TX-042,2025-09-15,Payment to Demo Grocery Supplier,SUPPLIER-09,4575,0,128900.00,data/bank_statements/statement_2025-09.pdf,1
+TX-043,2025-09-20,Demo Palm Grocery,DEMO-2025-017,0,11500,140400.00,data/bank_statements/statement_2025-09.pdf,1
+TX-044,2025-09-28,Account service fee,FEE-09,25,0,140375.00,data/bank_statements/statement_2025-09.pdf,1
+TX-045,2025-10-02,Demo Horizon Market,DEMO-2025-018,0,8050,148425.00,data/bank_statements/statement_2025-10.pdf,1
+TX-046,2025-10-02,Warehouse rent,RENT-10,1200,0,147225.00,data/bank_statements/statement_2025-10.pdf,1
+TX-047,2025-10-15,Payment to Demo Grocery Supplier,SUPPLIER-10,4750,0,142475.00,data/bank_statements/statement_2025-10.pdf,1
+TX-048,2025-10-21,Demo Oasis Stores,DEMO-2025-019,0,12420,154895.00,data/bank_statements/statement_2025-10.pdf,1
+TX-049,2025-10-28,Account service fee,FEE-10,25,0,154870.00,data/bank_statements/statement_2025-10.pdf,1
+TX-050,2025-11-02,Demo Cedar Mini Market,DEMO-2025-020,0,9200,164070.00,data/bank_statements/statement_2025-11.pdf,1
+TX-051,2025-11-02,Warehouse rent,RENT-11,1200,0,162870.00,data/bank_statements/statement_2025-11.pdf,1
+TX-052,2025-11-15,Payment to Demo Grocery Supplier,SUPPLIER-11,4925,0,157945.00,data/bank_statements/statement_2025-11.pdf,1
+TX-053,2025-11-17,Demo Palm Grocery,DEMO-2025-021,0,10695,168640.00,data/bank_statements/statement_2025-11.pdf,1
+TX-054,2025-11-28,Account service fee,FEE-11,25,0,168615.00,data/bank_statements/statement_2025-11.pdf,1
+TX-055,2025-12-02,Warehouse rent,RENT-12,1200,0,167415.00,data/bank_statements/statement_2025-12.pdf,1
+TX-056,2025-12-04,Demo Horizon Market,DEMO-2025-022,0,8625,176040.00,data/bank_statements/statement_2025-12.pdf,1
+TX-057,2025-12-15,Payment to Demo Grocery Supplier,SUPPLIER-12,5100,0,170940.00,data/bank_statements/statement_2025-12.pdf,1
+TX-058,2025-12-18,Demo Oasis Stores,DEMO-2025-023,0,13800,184740.00,data/bank_statements/statement_2025-12.pdf,1
+TX-059,2025-12-28,Account service fee,FEE-12,25,0,184715.00,data/bank_statements/statement_2025-12.pdf,1
+TX-060,2026-01-12,Demo Cedar Mini Market,DEMO-2025-024,0,9775,194490.00,data/extra_period/statement_2026-01.pdf,1
